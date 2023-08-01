@@ -114,7 +114,7 @@ if __name__ == '__main__':
             ec.capture(0, "frame", f"Openai/{random.randint(0,99)}img.png")
 
         elif "weather".lower() in query.lower():
-            api_key = "a73aa64b6a654693a8e105844230108"
+            api_key = "Enter YOUR API key here"
             base_url = "http://api.weatherapi.com/v1"
             say("what is the city name")
             city_name = takecommand()
